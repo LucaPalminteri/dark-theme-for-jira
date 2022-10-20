@@ -6,6 +6,8 @@ window.addEventListener("click",()=> main())
 
 function main() {
 
+    document.body.backgroundColor = "21262d";
+
     // Variables
     let dark_grey_1 = "#21262d";
     let dark_grey_2 = "#6e7681";
@@ -29,6 +31,7 @@ function main() {
     let gh = document.getElementById('gh'); 
     let ghxColumnHeaders = document.getElementById('ghx-column-headers'); 
     let ghxColumnHeaderGroup = document.getElementById('ghx-column-header-group'); 
+    let jiraFrontend = document.getElementById('jira-frontend'); 
     
 
 
@@ -40,6 +43,7 @@ function main() {
     let button = document.getElementsByTagName("button");
     let svg = document.getElementsByTagName("svg");
     let input = document.getElementsByTagName("input");
+    
 
 
 
@@ -59,6 +63,7 @@ function main() {
     gh.style.backgroundColor = dark_grey_1;
     ghxColumnHeaders.style.backgroundColor = dark_grey_1;
     ghxColumnHeaderGroup.style.backgroundColor = dark_grey_1;
+    jiraFrontend.style.backgroundColor = dark_grey_1;
 
     // styles for class elements
     for (let i = 0; i < ghxSwimlaneHeader.length; i++) 

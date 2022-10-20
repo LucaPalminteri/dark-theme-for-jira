@@ -69,44 +69,44 @@ function main() {
     
     
     // Elements by tag
-    //let nav = document.getElementsByTagName("nav");
+    let header = document.getElementsByTagName("header");
     let li = document.getElementsByTagName("li");
     let a = document.getElementsByTagName("a");
 
     //styles for tag elements
-    //for (let i = 0; i < nav.length; i++) nav[i].style.backgroundColor = dark_grey_1;
+    for (let i = 0; i < header.length; i++) header[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < li.length; i++) li[i].style.color = font_color;
     //for (let i = 0; i < a.length; i++) if(a[i].firstChild != null) a[i].firstChild.style.color = font_color
 
     // styles for id elements
-    jiraFrontend.style.backgroundColor = dark_grey_1;
-    akMainContent.style.backgroundColor = dark_grey_1;
-    flags.style.backgroundColor = dark_grey_1;
-    akJiraNavigation.style.backgroundColor = dark_grey_1;
-    akSideNavigation.style.backgroundColor = dark_grey_1;
-    content.style.backgroundColor = dark_grey_1;
-    gh.style.backgroundColor = dark_grey_1;
-    ghxHeader.style.backgroundColor = dark_grey_1;
-    ghxContentMain.style.backgroundColor = dark_grey_1;
-    ghxErrors.style.backgroundColor = dark_grey_1;
-    ghxRabid.style.backgroundColor = dark_grey_1;
-    ghxOperations.style.backgroundColor = dark_grey_1;
-    ghxControls.style.backgroundColor = dark_grey_1;
-    ghxControlsPlan.style.backgroundColor = dark_grey_1;
-    ghxControlsWork.style.backgroundColor = dark_grey_1;
-    ghxQuickFilters.style.backgroundColor = dark_grey_1;
-    ghxControlsReport.style.backgroundColor = dark_grey_1;
-    ghxBontrolsButtons.style.backgroundColor = dark_grey_1;
-    ghxPlan.style.backgroundColor = dark_grey_1;
-    ghxReport.style.backgroundColor = dark_grey_1;
-    ghxWork.style.backgroundColor = dark_grey_1;
-    ghxPoolColumn.style.backgroundColor = dark_grey_1;
-    ghxPoolWrapper.style.backgroundColor = dark_grey_1;
-    ghxColumnHeaderGroup.style.backgroundColor = dark_grey_1;
-    ghxColumnHeaders.style.backgroundColor = dark_grey_1;
-    ghxPool.style.backgroundColor = dark_grey_1;
-    ghxDetailView.style.backgroundColor = dark_grey_1;
-    rightSidebarPanelWrapper.style.backgroundColor = dark_grey_1;
+    if(jiraFrontend != null) jiraFrontend.style.backgroundColor = dark_grey_1;
+    if(akMainContent != null) akMainContent.style.backgroundColor = dark_grey_1;
+    if(flags != null) flags.style.backgroundColor = dark_grey_1;
+    if(akJiraNavigation != null) akJiraNavigation.style.backgroundColor = dark_grey_1;
+    if(akSideNavigation != null) akSideNavigation.style.backgroundColor = dark_grey_1;
+    if(content != null) content.style.backgroundColor = dark_grey_1;
+    if(gh != null) gh.style.backgroundColor = dark_grey_1;
+    if(ghxHeader != null) ghxHeader.style.backgroundColor = dark_grey_1;
+    if(ghxContentMain != null) ghxContentMain.style.backgroundColor = dark_grey_1;
+    if(ghxErrors != null) ghxErrors.style.backgroundColor = dark_grey_1;
+    if(ghxRabid != null) ghxRabid.style.backgroundColor = dark_grey_1;
+    if(ghxOperations != null) ghxOperations.style.backgroundColor = dark_grey_1;
+    if(ghxControls != null) ghxControls.style.backgroundColor = dark_grey_1;
+    if(ghxControlsPlan != null) ghxControlsPlan.style.backgroundColor = dark_grey_1;
+    if(ghxControlsWork != null) ghxControlsWork.style.backgroundColor = dark_grey_1;
+    if(ghxQuickFilters != null) ghxQuickFilters.style.backgroundColor = dark_grey_1;
+    if(ghxControlsReport != null) ghxControlsReport.style.backgroundColor = dark_grey_1;
+    if(ghxBontrolsButtons != null) ghxBontrolsButtons.style.backgroundColor = dark_grey_1;
+    if(ghxPlan != null) ghxPlan.style.backgroundColor = dark_grey_1;
+    if(ghxReport != null) ghxReport.style.backgroundColor = dark_grey_1;
+    if(ghxWork != null) ghxWork.style.backgroundColor = dark_grey_1;
+    if(ghxPoolColumn != null) ghxPoolColumn.style.backgroundColor = dark_grey_1;
+    if(ghxPoolWrapper != null) ghxPoolWrapper.style.backgroundColor = dark_grey_1;
+    if(ghxColumnHeaderGroup != null) ghxColumnHeaderGroup.style.backgroundColor = dark_grey_1;
+    if(ghxColumnHeaders != null) ghxColumnHeaders.style.backgroundColor = dark_grey_1;
+    if(ghxPool != null) ghxPool.style.backgroundColor = dark_grey_1;
+    if(ghxDetailView != null) ghxDetailView.style.backgroundColor = dark_grey_1;
+    if(rightSidebarPanelWrapper != null) rightSidebarPanelWrapper.style.backgroundColor = dark_grey_1;
 
     // styles for class elements
     for (let i = 0; i < ghxSwimlaneHeader.length; i++) 

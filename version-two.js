@@ -72,10 +72,12 @@ function main() {
     let header = document.getElementsByTagName("header");
     let li = document.getElementsByTagName("li");
     let a = document.getElementsByTagName("a");
+    let span = document.getElementsByTagName("span");
 
     //styles for tag elements
     for (let i = 0; i < header.length; i++) header[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < li.length; i++) li[i].style.color = font_color;
+    for (let i = 0; i < span.length; i++) span[i].style.color = font_color;
     //for (let i = 0; i < a.length; i++) if(a[i].firstChild != null) a[i].firstChild.style.color = font_color
 
     // styles for id elements

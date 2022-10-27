@@ -75,10 +75,12 @@ function main() {
     let header = document.getElementsByTagName("header");
     let li = document.getElementsByTagName("li");
     let a = document.getElementsByTagName("a");
+    let span = document.getElementsByTagName("span");
 
     //styles for tag elements
     for (let i = 0; i < header.length; i++) header[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < li.length; i++) li[i].style.color = font_color;
+    for (let i = 0; i < span.length; i++) span[i].style.color = font_color;
     //for (let i = 0; i < a.length; i++) if(a[i].firstChild != null) a[i].firstChild.style.color = font_color
 
     // styles for id elements
@@ -137,5 +139,9 @@ function main() {
     for (let i = 0; i < ghxSwimlane.length; i++) ghxSwimlane[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < ghxFirst.length; i++) ghxFirst[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < ghxSwimlane2.length; i++) ghxSwimlane2[i].style.backgroundColor = dark_grey_1;
+<<<<<<< HEAD
     for (let i = 0; i < y8i.length; i++) y8i[i].style.backgroundColor = dark_grey_2;
 }
+=======
+}
+>>>>>>> f26081dccac9612e68b83b223dc9b667a580a5f1

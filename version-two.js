@@ -23,6 +23,9 @@ function main() {
     let ghxFirst = document.getElementsByClassName('ghx-swimlane ghx-first');  
     let ghxSwimlaneHeader = document.getElementsByClassName('ghx-swimlane-header');  
     let ghxSwimlane2 = document.getElementsByClassName('ghx-swimlane');  
+    let y8i = document.getElementsByClassName('y8i3hb-1 fIqZmS');  
+
+
     //ghx-work-wrapper
     /*
     ghx-swimlane-header
@@ -134,4 +137,5 @@ function main() {
     for (let i = 0; i < ghxSwimlane.length; i++) ghxSwimlane[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < ghxFirst.length; i++) ghxFirst[i].style.backgroundColor = dark_grey_1;
     for (let i = 0; i < ghxSwimlane2.length; i++) ghxSwimlane2[i].style.backgroundColor = dark_grey_1;
+    for (let i = 0; i < y8i.length; i++) y8i[i].style.backgroundColor = dark_grey_2;
 }

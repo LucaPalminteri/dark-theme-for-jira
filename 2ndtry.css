@@ -1,0 +1,46 @@
+
+@-moz-document url-prefix("https://jira.domain.com") {
+
+	html {
+		--inv: 100%;
+		--hue: 180deg;
+		--bright: 105%;
+		--contr: 105%;
+
+		--filter:
+			invert(var(--inv))
+			hue-rotate(var(--hue))
+			brightness(var(--bright))
+			contrast(var(--contr));
+	}
+
+	html,
+	body {
+		background: white;
+	}
+
+	html,
+	img,
+	svg,
+	iframe,
+	.emoji-common-emoji-sprite,
+	span[role="img"] {
+		filter: var(--filter);
+	}
+
+	html {
+		--inv: 86%;
+	}
+
+	#gh {
+		padding: 0 40px;
+	}
+
+	#content {
+		margin: 0;
+	}
+
+	[data-testid="Content"] > div:first-child {
+		background: white;
+	}
+}

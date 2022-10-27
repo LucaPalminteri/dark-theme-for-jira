@@ -1,0 +1,28 @@
+@-moz-document regexp(".*.atlassian.net/jira.*"),
+regexp(".*.atlassian.net/browse.*"),
+regexp(".*.atlassian.net/secure.*") {
+    :root {
+        --ds-background-default: #333;
+        --ds-background-disabled: #444;
+        --ds-background-input: #333;
+        --ds-background-neutral: #222;
+        --ds-background-neutral-hovered: #333;
+        --ds-background-neutral-subtle: #444;
+        --ds-background-neutral-subtle-hovered: #555;
+        --ds-background-selected: #353a44;
+        --ds-background-selected-hovered: #484f5d;
+        --ds-border: #222;
+        --ds-link: #429eff;
+        --ds-menu-seperator-color: #444;
+        --ds-shadow-raised: 0 1px 1px rgba(150, 150, 150, 0.25), 0 0 1px 1px rgba(150, 150, 150, 0.13);
+        --ds-surface: #333;
+        --ds-surface-overlay: #444;
+        --ds-surface-raised: #333;
+        --ds-text: #8ec4fd;
+        --ds-text-disabled: #aaa;
+        --ds-text-highEmphasis: #fff;
+        --ds-text-link-resting: #429eff;
+        --ds-text-selected: #9494ff;
+        --ds-text-subtle: #d2d2d2;
+    }
+}

@@ -18,7 +18,7 @@ regexp(".*.atlassian.net/secure.*") {
         --ds-surface: #333;
         --ds-surface-overlay: #444;
         --ds-surface-raised: #333;
-        --ds-text: #8ec4fd;
+        --ds-text: #FFF;
         --ds-text-disabled: #aaa;
         --ds-text-highEmphasis: #fff;
         --ds-text-link-resting: #429eff;
